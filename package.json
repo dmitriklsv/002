@@ -1,0 +1,19 @@
+{
+  "name": "contracts-upgradable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile --all",
+    "deploy-theta-test": "truffle deploy --network=theta_testnet --reset"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "@openzeppelin/truffle-upgrades": "^1.21.0",
+    "@truffle/hdwallet-provider": "^2.1.15"
+  }
+}
